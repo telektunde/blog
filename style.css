@@ -1,0 +1,84 @@
+/* Layout properties */
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'menu'
+    'main'
+    'footer';
+  grid-template-rows: 80px 80px 2080px 100px
+  top: 0px;
+  left: 0px;
+  width: 1600px;
+  height: 2340px;
+}
+.header {
+  grid-area: header;
+  width: 1600px;
+  height: 80px;
+}
+.menu {
+  grid-area: menu;
+  width: 1600px;
+  height: 80px;
+}
+.main {
+  grid-area: main;
+  width: 1600px;
+  height: 2080px;
+}
+.footer {
+  grid-area: footer;
+  width: 1600px;
+  height: 100px;
+}
+.post_01 {
+  top: 200px;
+  left: 245px;
+  width: 730px;
+  height: 350px;
+  background-image: url(assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+  background-size: cover;
+  padding: 60px;
+  text-align: left;
+  font: normal normal normal 20px/30px Montserrat;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.comments {
+  text-transform: uppercase;
+  font: normal normal bold 15px Montserrat;
+  letter-spacing: 3px;
+}
+h1 {
+  font: normal normal bold 40px/50px Montserrat;
+  letter-spacing: 0px;
+  padding: 15px 0px;
+}
+h2 {
+  font: normal normal normal 20px/30px Montserrat;
+  letter-spacing: 0px;
+  line-height: 180%;
+}
+.button_subsribe {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #6200EA;
+  text-transform: uppercase;
+  top: 20px;
+  left: 245px;
+}
+.button_readmore {
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
