@@ -2,12 +2,12 @@
 
 .container {
   display: grid;
-  grid-template-areas:
-    'header'
-    'menu'
-    'main'
-    'footer';
-  grid-template-rows: 80px 80px 2080px 100px
+  grid-template-rows: 80px 80px 2080px 100px;
+  grid-template-areas: 
+    'header header'
+    'menu menu'
+    'main right'
+    'footer footer';
   top: 0px;
   left: 0px;
   width: 1600px;
@@ -18,48 +18,13 @@
   width: 1600px;
   height: 80px;
 }
+.logo {
+  margin: auto;
+}
 .menu {
   grid-area: menu;
   width: 1600px;
   height: 80px;
-}
-.main {
-  grid-area: main;
-  width: 1600px;
-  height: 2080px;
-}
-.footer {
-  grid-area: footer;
-  width: 1600px;
-  height: 100px;
-}
-.post_01 {
-  top: 200px;
-  left: 245px;
-  width: 730px;
-  height: 350px;
-  background-image: url(assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
-  background-size: cover;
-  padding: 60px;
-  text-align: left;
-  font: normal normal normal 20px/30px Montserrat;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-}
-.comments {
-  text-transform: uppercase;
-  font: normal normal bold 15px Montserrat;
-  letter-spacing: 3px;
-}
-h1 {
-  font: normal normal bold 40px/50px Montserrat;
-  letter-spacing: 0px;
-  padding: 15px 0px;
-}
-h2 {
-  font: normal normal normal 20px/30px Montserrat;
-  letter-spacing: 0px;
-  line-height: 180%;
 }
 .button_subsribe {
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -72,13 +37,120 @@ h2 {
   top: 20px;
   left: 245px;
 }
-.button_readmore {
-  border: 2px solid #FFFFFF;
+.main {
+  grid-area: main;
+  margin: 40px 0px 40px 245px;
+  height: 2080px;
+}
+.right {
+  grid-area: right;
+  margin: 40px 245px 40px 0px;
+}
+.latest_news {
+  
+}
+.footer {
+  grid-area: footer;
+  width: 1600px;
+  height: 100px;
+}
+.post_320 {
+  width: 730px;
+  height: 350px;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 60px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.blogpost_01 {
+  padding: 60px;
+  background-image: url(assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
+}
+.comments {
+  text-transform: uppercase;
+  font: normal normal bold 15px Montserrat;
+  letter-spacing: 2.4px;
+}
+.title {
+  font: normal normal bold 40px/50px Montserrat;
+  margin: 15px 0px;
+  letter-spacing: 0px;
+}
+.text {
+  font: normal normal normal 20px/30px Montserrat;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 1;
+}
+.button_outline {
   text-align: center;
   font: normal normal bold 12px/15px Montserrat;
   letter-spacing: 2.4px;
   text-transform: uppercase;
   background-color: transparent;
+  margin: 15px 0px;
+}
+.button_white {
+  border: 2px solid #FFFFFF;
   color: #FFFFFF;
+}
+.button_purple {
+  border: 2px solid #6200EA;
+  color: #6200EA;
+}
+.post_160 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 30px 0;
+  width: 350px;
+  height: 160px;
+  float: left;
+}
+.img_120 {
+  float: left;
+  background: transparent url('img/img_120.png') 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  margin: 20px;
+}
+h5 {
+  text-align: left;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #6200EA;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 20px;
+}
+p {
+  font: normal normal normal 14px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #211138;
+  opacity: 1;
+  width: 170px;
   margin-top: 15px;
+}
+.culture {
+  margin-left: 30px;
+}
+.blogpost_02 {
+  float: left;
+  color: #211138;
+  margin-bottom: 30px;
+}
+.blogpost_03 {
+  float: left;
+  color: #211138;
+  margin-bottom: 30px;
+}
+.blogpost_04 {
+  float: left;
+  color: #211138;
+}
+.header_latest_news {
+  margin: 0px;
+  
 }

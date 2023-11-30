@@ -15,21 +15,31 @@
 .main {
   background: #F4F3F5 0% 0% no-repeat padding-box;
   opacity: 1;
-  margin: 30;
 }
 .footer {
   background: #211138 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.card_320 {
+.bg_320 {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
 }
-.card_160 {
+.bg_160 {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
+}
+.img_120 {
+  width: 120px;
+  height: 120px;
+}
+.img_320 {
+ background: transparent url('img/img_320.png') 0% 0% no-repeat padding-box;
+  border-radius: 15px 15px 0px 0px;
+  opacity: 1;
+  width: 730px;
+  height: 320px;
 }
 .button {
   opacity: 1;
@@ -41,4 +51,16 @@
 }
 .button_40 {
   height: 40px;
+}
+.header_post_160 {
+  background: #6200EA 0% 0% no-repeat padding-box;
+  border-radius: 15px 15px 0px 0px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width: 350px;
+  height: 60px;
 }
