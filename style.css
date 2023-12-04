@@ -40,23 +40,28 @@
 .main {
   grid-area: main;
   margin: 40px 0px 40px 245px;
-  height: 2080px;
 }
 .right {
   grid-area: right;
   margin: 40px 245px 40px 0px;
 }
-.latest_news {
-  
-}
 .footer {
   grid-area: footer;
   width: 1600px;
   height: 100px;
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  opacity: 1;
+  color: #B2ACBA;
+  padding: auto;
 }
-.post_320 {
+span {
+  color: #6200EA;
+}
+.post_350 {
   width: 730px;
-  height: 350px;
   background-size: cover;
   box-sizing: border-box;
   padding: 60px;
@@ -104,13 +109,11 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 30px 0;
   width: 350px;
-  height: 160px;
   float: left;
 }
 .img_120 {
-  float: left;
+  /*float: left;*/
   background: transparent url('img/img_120.png') 0% 0% no-repeat padding-box;
   border-radius: 10px;
   opacity: 1;
@@ -133,8 +136,11 @@ p {
   width: 170px;
   margin-top: 15px;
 }
+.business {
+  margin: 30px 0;
+}
 .culture {
-  margin-left: 30px;
+  margin: 30px 0px 30px 30px;
 }
 .blogpost_02 {
   float: left;
@@ -150,7 +156,52 @@ p {
   float: left;
   color: #211138;
 }
-.header_latest_news {
-  margin: 0px;
-  
+.header_post_160 {
+  background: #6200EA 0% 0% no-repeat padding-box;
+  border-radius: 15px 15px 0px 0px;
+  opacity: 1;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+h5.white {
+  text-align: center;
+  color: #FFFFFF;
+}
+.business, .culture {
+  border-radius: 15px;
+}
+.footer_post_160 {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 15px 15px;
+  opacity: 1;
+  width: 350px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+h5.grey {
+  color: #B2ACBA;
+  text-align: center;
+}
+.recommended_news, .categories_news {
+  margin-top: 30px;
+}
+.categories {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+h5.fekete {
+  height: 50px;
+  color: #211138;
+  padding-left: 30px;
+  font: normal normal bold 12px/15px Montserrat;
 }
