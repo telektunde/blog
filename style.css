@@ -19,14 +19,35 @@
   opacity: 1;
   display: flex;
   align-items: center;
+  max-width: 1600px;
+  padding: 0px 245px 0px 245px;
 }
 .logo {
-  
+ margin: 0px 365px;
 }
 .menu {
   grid-area: menu;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1600px;
+  padding: 0px 245px;
 }
-.button_subsribe {
+a {
+  text-align: left;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #211138;
+  text-transform: uppercase;
+  text-decoration: none;
+  opacity: 1;
+}
+a:active {
+  color: #6200EA;
+  text-decoration: underline;
+  line-height: 32px;
+}
+.button_subscribe {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   border: 2px solid #FFFFFF;
   text-align: center;
@@ -34,15 +55,16 @@
   letter-spacing: 2.4px;
   color: #6200EA;
   text-transform: uppercase;
-  margin-left: 245px;
 }
 .main {
   grid-area: main;
   margin: 40px 0px 40px 245px;
+  max-width: 760px;
 }
 .right {
   grid-area: right;
   margin: 40px 245px 40px 0px;
+  max-width: 350px;
 }
 .footer {
   grid-area: footer;
@@ -68,7 +90,7 @@ span {
   color: #FFFFFF;
 }
 .blogpost_01 {
-  padding: 60px;
+ /* padding: 60px;*/
   background-image: url(assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg);
 }
 .comments {
