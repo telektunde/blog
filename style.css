@@ -7,6 +7,9 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Header */
+
 .header {
   background: #6200EA 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -30,6 +33,9 @@
 .logo {
   margin: auto;
 }
+
+/* Menu */
+
 .menu {
   display: flex;
   align-items: center;
@@ -52,6 +58,9 @@ a:active {
   line-height: 0.25vw;
   text-underline-offset: 1.75vw;
 }
+
+/* Main - left part */
+
 .main {
   display: flex;
   flex-direction: row;
@@ -82,7 +91,7 @@ a:active {
 }
 .text {
   font: normal normal normal 1.25vw/1.875vw Montserrat;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-align: left;
   opacity: 1;
 }
@@ -120,9 +129,8 @@ p {
   letter-spacing: 0px;
   color: #211138;
   opacity: 1;
+  width: 10.625vw;
   margin-top: 0.9375vw;
-}
-.business {
 }
 .culture {
   margin: 0px 1.875vw 1.875vw 1.875vw;
@@ -143,6 +151,9 @@ p {
   color: #211138;
   margin: 0 1.875vw 0 0;
 }
+
+/* Main - right part */
+
 .right {
   flex: 21.875vw;
 }
@@ -178,16 +189,9 @@ h5.grey {
   color: #B2ACBA;
   text-align: center;
 }
-.recommended_news, .categories_news {
-/*margin-top: 30px;*/
-}
-.categories {
-
-}
 h5.fekete {
   color: #211138;
- /* padding: 0px 0px 0px 30px;
-  margin-top: 0px;*/
+  padding: 0px 1.875vw;
   font: normal normal bold 0.75vw/0.9375vw Montserrat;
   height: 5.55vh;
   display: flex;
@@ -202,8 +206,10 @@ h5.fekete {
   text-transform: uppercase;
   opacity: 1;
   color: #B2ACBA;
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: 11.11vh;
 }
 span {
   color: #6200EA;

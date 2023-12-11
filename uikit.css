@@ -1,4 +1,4 @@
-/* general properties */
+/* General properties */
 
 .container {
   background: #F4F3F5 0% 0% no-repeat padding-box;
@@ -60,10 +60,10 @@
   background-color: transparent;
 }
 .button_white {
-  border: 2px solid #FFFFFF;
+  border: 0.125vw solid #FFFFFF;
   color: #FFFFFF;
 }
 .button_purple {
-  border: 2px solid #6200EA;
+  border: 0.125vw solid #6200EA;
   color: #6200EA;
 }
