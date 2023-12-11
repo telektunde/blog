@@ -125,10 +125,11 @@ h5 {
   opacity: 1;
 }
 p {
-  font: normal normal normal 14px/1.25vw Montserrat;
+  font: normal normal normal 0.875vw/1.25vw Montserrat;
   letter-spacing: 0px;
   color: #211138;
   opacity: 1;
+  float: left;
   width: 10.625vw;
   margin-top: 0.9375vw;
 }
